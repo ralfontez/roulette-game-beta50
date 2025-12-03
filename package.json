@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  // added
+  
   "homepage": "https://ralfontez.github.io/roulette-game-beta99/",
 
   "scripts": {
@@ -11,7 +11,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    // AÑADE ESTOS DOS SCRIPTS 
+    
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
