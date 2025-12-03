@@ -15,7 +15,7 @@ const App = () => {
     <Router>
       <Routes>
         {/* Ruta principal: Pantalla de inicio */}
-        <Route path="/" element={<StartScreen />} />
+        <Route path="/roulette-game-beta50" element={<StartScreen />} />
         
         {/* Ruta para el ingreso rápido de números (Botones amarillos) */}
         <Route path="/input" element={<InputScreen />} />
